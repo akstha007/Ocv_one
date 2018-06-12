@@ -289,7 +289,7 @@ public class ImageManipulationsActivity extends Activity implements CvCameraView
         Mat hierarchy = new Mat();
         double minArea = 4000, maxArea = 8000;
 
-        InputStream imageStream = this.getResources().openRawResource(R.raw.a11);
+        InputStream imageStream = this.getResources().openRawResource(R.raw.a);
         Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
         Mat mat = new Mat();
         Utils.bitmapToMat(bitmap, mat);
